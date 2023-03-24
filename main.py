@@ -12,5 +12,6 @@ if len(url) > 0:
         btn = st.download_button(
             label="Download Video",
             data=file,
+            file_name=yt.title,
             mime="video/mp4"
         )
